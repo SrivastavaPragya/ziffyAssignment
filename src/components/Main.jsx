@@ -10,8 +10,6 @@ const Main = () => {
   const [activePart, setActivePart] = useState('completed');
   return (
     <div className="container">
-
-   
     <div className="main1">
    
       <div className="topPart">
@@ -44,6 +42,10 @@ const Main = () => {
 {activePart==='Review'&&(
       <InReview/>
       )}
+    </div>
+
+    <div className="leftPart">
+    <input type="text" placeholder="Search Bounties, Profiles, and more..." class="search-input" />
     </div>
     </div>
   );

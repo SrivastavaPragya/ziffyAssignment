@@ -8,7 +8,7 @@ const Completed = () => {
           <img src="./Rectangle1.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
             <p className="taskTitle">
-              Write a thread with memes for PP Program on Solana by PStake 
+              Write a thread with memes for PP Program on Solana <span className="by">by</span> <span className="company">Pstake</span> 
             </p>
             <div className="com">
               <p className="taskMeta">content</p>
@@ -32,7 +32,7 @@ const Completed = () => {
         <div className="header">
           <img src="./Rectangle2.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
-            <p className="taskTitle">Armada UI/Ux Review by Superteam</p>
+            <p className="taskTitle">Armada UI/Ux Review <span className="by">by</span> <span className="company">Superteam</span></p>
 
             <div className="com">
               <p className="taskMeta1">Design</p>
@@ -52,7 +52,7 @@ const Completed = () => {
         <div className="header">
           <img src="./Rectangle3.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
-            <p className="taskTitle">Create a Frame for Farcaster  <span className="by">by</span> Deribet</p>
+            <p className="taskTitle">Create a Frame for Farcaster  <span className="by">by</span>  <span className="company">Deribet</span></p>
 
             <div className="com">
               <p className="taskMeta2">content</p>
@@ -72,7 +72,7 @@ const Completed = () => {
         <div className="header">
           <img src="./Rectangle4.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
-            <p className="taskTitle">Design Earn's Talent by Deans's Dio</p>
+            <p className="taskTitle">Design Earn's Talent <span className="by">by</span> <span className="company">Deans's Dio</span> </p>
 
             <div className="com">
               <p className="taskMeta3">Backend</p>

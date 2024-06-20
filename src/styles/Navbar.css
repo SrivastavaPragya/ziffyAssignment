@@ -1,0 +1,150 @@
+.navbar {
+
+
+  padding: 0.3rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+
+  .logo {
+    width: 10rem;
+    height: 3rem;
+
+    > img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .menus {
+    margin-inline: 1.7rem;
+
+    .navList {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .link {
+        margin-inline: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        > p {
+          font-family: "Inter", sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          color: #5a5a62;
+        }
+        > span {
+          margin-left: 0.2rem;
+          font-size: 17px;
+        }
+      }
+    }
+  }
+
+  .searchBar {
+    border: 1.5px solid #dadce0;
+    border-radius: 5rem;
+    padding: 0.3rem 0.7rem;
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    height: 2.3rem;
+
+    .searchValue {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0.4rem;
+      border-right: 1px solid #dadce0;
+
+      .lightning {
+        font-size: 16px;
+      }
+      > span {
+        font-size: 18px;
+        color: #9e9e9e;
+        font-weight: 600;
+        margin-inline: 0.4rem;
+        cursor: pointer;
+      }
+    }
+    > input {
+      margin-inline: 1rem;
+      width: 100%;
+      height: 100%;
+      border: none;
+      outline: none;
+
+      &::placeholder {
+        font-size: 12px;
+        font-weight: 300;
+        color: #9e9e9e;
+        font-family: "Inter", sans-serif;
+      }
+    }
+  }
+
+  .profileDetails {
+    margin-inline: 3rem;
+    display: flex;
+    align-items: center;
+
+    .onlineInd {
+      display: flex;
+      background-color: #f9f5ff;
+      width: 2.2rem;
+      height: 2.2rem;
+      justify-content: center;
+      border-radius: 50%;
+      align-items: center;
+      position: relative;
+
+      > p {
+        font-size: 14px;
+        color: #195bdf;
+        font-weight: 500;
+        font-family: "Inter", sans-serif;
+      }
+      > span {
+        position: absolute;
+        bottom: -3px;
+        right: 0;
+        color: #4caf50;
+        font-size: 18px;
+      }
+    }
+
+    .userDetailings {
+      margin-inline: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-family: "Inter", sans-serif;
+      gap: 0.1rem;
+
+      .userName {
+        font-size: 12px;
+        font-weight: 500;
+      }
+      .email {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        font-weight: 300;
+      }
+    }
+
+    .nightMode {
+      margin-left: 2rem;
+      > span {
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+    }
+  }
+}

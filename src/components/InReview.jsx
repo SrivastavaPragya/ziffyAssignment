@@ -12,7 +12,7 @@ const InReview = () => {
         <div className="header">
           <img src="./Rectangle2.jpg" alt="Logo" className="logo" /> 
           <div className="taskDetails">
-            <p className="taskTitle">Armada UI/Ux Review</p>
+            <p className="taskTitle">Armada UI/Ux Review  <span className="by">by</span>  <span className="company">Superteam</span></p>
             <p className="taskMeta1">Design</p>
           </div>
         </div>
@@ -31,7 +31,7 @@ const InReview = () => {
         <div className="header">
           <img src="./Rectangle3.jpg" alt="Logo" className="logo" /> 
           <div className="taskDetails">
-            <p className="taskTitle">Create a Frame for Farcaster</p>
+            <p className="taskTitle">Create a Frame for Farcaster  <span className="by">by</span>  <span className="company">Deans's Dio</span></p>
             <p className="taskMeta2">content</p>
           </div>
         </div>
@@ -49,7 +49,7 @@ const InReview = () => {
         <div className="header">
           <img src="./Rectangle1.jpg" alt="Logo" className="logo" /> 
           <div className="taskDetails">
-            <p className="taskTitle">Write a thread with memes for PP Program on Solana </p>
+            <p className="taskTitle">Write a thread with memes for PP Program on Solana <span className="by">by</span> <span className="company">Pstake</span>  </p>
             <p className="taskMeta">content</p>
           </div>
         </div>

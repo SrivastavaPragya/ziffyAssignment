@@ -1,20 +1,30 @@
 /* main1.css */
 
 .container {
-  width: 70%;
-  margin-inline: 3.5rem;
-  padding-inline: 3.5rem;
+  
+  margin-left: 3.5rem;
+  padding-left: 3.5rem;
+  display: flex;
+  
+  
 }
 
 .main1 {
+  width: 70%;
+ height: 38rem;
+ 
+ 
+  border-right: 2px solid rgb(216, 226, 238) ;
+  
 }
 .topPart {
-  margin-inline: 4rem;
-
+ 
+margin-right: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
+
 
   border-bottom: 2px solid rgb(216, 226, 238);
 }
@@ -109,7 +119,7 @@
 .card {
   display: flex;
   justify-content: space-between;
-  margin-top: 0.9rem;
+  margin-top: 0.6rem;
 
 
  
@@ -123,10 +133,10 @@
   display: flex;
   align-items: center;
 
-  padding: 1rem;
+ 
   > img {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4.1rem;
+    height: 4.1rem;
     margin-right: 1.2rem;
   }
 }
@@ -147,6 +157,21 @@
   margin-bottom: 0.8rem;
   font-family: "Poppins", sans-serif;
 
+}
+
+.by{
+  font-size: .8rem;
+
+  font-weight: 400;
+ color: rgb(100, 117, 139) ;
+  font-family: "Poppins", sans-serif;
+}
+
+.company{
+  font-size: 1rem;
+  color: rgb(100, 117, 139) ;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
 }
 
 .taskMeta {
@@ -216,7 +241,7 @@
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 1.11rem;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .priceColour {
@@ -232,3 +257,36 @@
   font-weight: 400;
   color: rgb(100, 117, 139);
 }
+
+
+
+
+
+.leftPart{
+
+  margin: .8rem 0rem;
+  padding: .8rem 0rem;
+}
+
+.search-input {
+  
+  padding:.7rem 3.8rem;
+  font-size: .9rem; 
+  margin-left: 1.4rem;
+  border: 1px solid #ccc; 
+  border-radius: 1.5rem; 
+  border: none;
+  outline: none; 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
+  background-color: rgb(241,245,249);
+ 
+  
+}
+
+.search-input::placeholder {
+  color:rgb(44, 55, 71);
+
+ 
+}
+
+
