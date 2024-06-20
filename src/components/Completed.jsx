@@ -8,7 +8,7 @@ const Completed = () => {
           <img src="./Rectangle1.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
             <p className="taskTitle">
-              Write a thread with memes for PP Program on Solana{" "}
+              Write a thread with memes for PP Program on Solana by PStake 
             </p>
             <div className="com">
               <p className="taskMeta">content</p>
@@ -32,7 +32,7 @@ const Completed = () => {
         <div className="header">
           <img src="./Rectangle2.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
-            <p className="taskTitle">Armada UI/Ux Review</p>
+            <p className="taskTitle">Armada UI/Ux Review by Superteam</p>
 
             <div className="com">
               <p className="taskMeta1">Design</p>
@@ -52,7 +52,7 @@ const Completed = () => {
         <div className="header">
           <img src="./Rectangle3.jpg" alt="Logo" className="logo" />
           <div className="taskDetails">
-            <p className="taskTitle">Create a Frame for Farcaster</p>
+            <p className="taskTitle">Create a Frame for Farcaster  <span className="by">by</span> Deribet</p>
 
             <div className="com">
               <p className="taskMeta2">content</p>
