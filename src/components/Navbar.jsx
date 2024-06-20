@@ -38,16 +38,37 @@ const Navbar = () => {
       </div>
       <div className="profileDetails">
         <div className="onlineInd">
-          <p>OR</p>
+          <p className="akrm">OR</p>
           <span className="greenDot">•</span>
+
+          <div className="userMenuContainer">
+            <ul className="menuLists">
+              <li className="userMenus">
+                <span class="material-symbols-outlined">person</span>
+                <p>View Profile</p>
+              </li>
+              <li className="userMenus">
+                <span class="material-symbols-outlined">space_dashboard</span>
+                <p>Dashboard</p>
+              </li>
+              <li className="userMenus">
+                <span class="material-symbols-outlined">code</span>
+                <p>API</p>
+              </li>
+              <li className="userMenus logout">
+                <span class="material-symbols-outlined">logout</span>
+                <p>Log Out</p>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="userDetailings">
           <p className="userName">Olivia Rhye</p>
           <p className="email">olivia@jiffyscan.xyz</p>
         </div>
-        <div className="nightMode">
-          <span class="material-symbols-outlined">dark_mode</span>
-        </div>
+      </div>
+      <div className="nightMode">
+        <span class="material-symbols-outlined">dark_mode</span>
       </div>
     </div>
   );

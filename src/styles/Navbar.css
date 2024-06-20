@@ -1,10 +1,7 @@
 .navbar {
-
-
   padding: 0.3rem 5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-bottom: 1rem;
 
   .logo {
@@ -19,7 +16,7 @@
   }
 
   .menus {
-    margin-inline: 1.7rem;
+    margin-inline: 1.5rem;
 
     .navList {
       display: flex;
@@ -101,22 +98,69 @@
       width: 2.2rem;
       height: 2.2rem;
       justify-content: center;
+      position: relative;
       border-radius: 50%;
       align-items: center;
       position: relative;
 
-      > p {
+      .akrm {
         font-size: 14px;
         color: #195bdf;
         font-weight: 500;
         font-family: "Inter", sans-serif;
       }
-      > span {
+      .greenDot {
         position: absolute;
         bottom: -3px;
         right: 0;
         color: #4caf50;
         font-size: 18px;
+      }
+      .userMenuContainer {
+        position: absolute;
+        width: 11rem;
+        top: 2.5rem;
+        display: none;
+        left: 0.3rem;
+        background-color: #ffffff;
+        border: 1px solid #dadce0;
+        border-radius: 10px;
+
+        .menuLists {
+          width: 100%;
+
+          .userMenus {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding: 0.4rem 0.6rem;
+            cursor: pointer;
+
+            > span {
+              font-size: 18px;
+              font-weight: 300;
+              color: #5a5a62;
+            }
+            > p {
+              font-size: 11px;
+              letter-spacing: 0.4px;
+              font-family: "Inter", sans-serif;
+              color: #5a5a62;
+              font-weight: 400;
+              margin-inline-start: 0.4rem;
+            }
+          }
+          .logout {
+            border-top: 1px solid #dadce0;
+          }
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+        .userMenuContainer {
+          display: block;
+        }
       }
     }
 
@@ -138,13 +182,12 @@
         font-weight: 300;
       }
     }
-
-    .nightMode {
-      margin-left: 2rem;
-      > span {
-        font-size: 1.3rem;
-        font-weight: 300;
-      }
+  }
+  .nightMode {
+    margin-left: 1rem;
+    > span {
+      font-size: 1.3rem;
+      font-weight: 300;
     }
   }
 }
