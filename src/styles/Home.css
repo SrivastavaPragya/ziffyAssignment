@@ -1,32 +1,23 @@
 /* main1.css */
 
 .container {
-  
-  margin-left: 3.5rem;
   padding-left: 3.5rem;
   display: flex;
-  
-  
 }
 
 .main1 {
   width: 70%;
- height: 38rem;
- 
- 
-  border-right: 2px solid rgb(216, 226, 238) ;
-  
+  height: 38rem;
+  border-right: 1px solid #ebebeb;
 }
+
 .topPart {
- 
-margin-right: 1rem;
+  margin-right: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-
-
-  border-bottom: 2px solid rgb(216, 226, 238);
+  /* padding: 0.5rem 0; */
+  border-bottom: 1.5px solid #ebebeb;
 }
 
 .tabList {
@@ -38,12 +29,10 @@ margin-right: 1rem;
 
 .completed,
 .Review {
-  margin-right: 1rem;
   padding: 0.5rem 1rem;
   cursor: pointer;
   color: rgb(161, 179, 193);
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
 }
 
@@ -53,16 +42,15 @@ margin-right: 1rem;
   padding: 0.5rem 1rem;
   color: black;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
 }
 
-.Review:hover {
+.Review.active {
   color: black;
   border-bottom: 2px solid rgb(99, 102, 241);
 }
-.completed:hover {
+.completed.active {
   color: black;
   border-bottom: 2px solid rgb(99, 102, 241);
 }
@@ -70,7 +58,7 @@ margin-right: 1rem;
 .filterSection {
   display: flex;
   align-items: center;
-  padding: 0.4rem 1rem;
+  padding-inline: 1rem;
 }
 
 .filterButton {
@@ -81,16 +69,19 @@ margin-right: 1rem;
   border: none;
   border-radius: 0.25rem;
   background-color: none;
-  font-family: "Roboto", sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
+  font-weight: 400;
 }
 
 .filterSelect {
-  padding: 0.3rem 1.5rem;
+  width: 7rem;
+  height: 1.3rem;
   cursor: pointer;
   border: 1px solid rgb(161, 179, 193);
   font-family: "Roboto", sans-serif;
-  font-size: 1rem;
+  font-size: 0.7rem;
+  outline: none;
+  padding-inline: 0.3rem;
   border-radius: 4px;
   color: rgb(99, 102, 241);
 
@@ -111,7 +102,7 @@ margin-right: 1rem;
 
 .bottomPart2 {
   margin-inline: 2.3rem;
-  padding-inline: 2.4rem;
+  padding-inline: 1.5rem;
 
   width: 95%;
 }
@@ -120,20 +111,19 @@ margin-right: 1rem;
   display: flex;
   justify-content: space-between;
   margin-top: 0.6rem;
-
-
- 
+  padding-inline: 1rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 7px;
 }
 
-.card:hover{
-  background-color: rgb(241,245,249);
+.card:hover {
+  background-color: rgb(241, 245, 249);
 }
 
 .header {
   display: flex;
   align-items: center;
 
- 
   > img {
     width: 4.1rem;
     height: 4.1rem;
@@ -151,74 +141,59 @@ margin-right: 1rem;
 
 .taskTitle {
   font-size: 1rem;
-
-  font-weight: 600;
+  font-weight: 500;
   color: #333;
   margin-bottom: 0.8rem;
-  font-family: "Poppins", sans-serif;
-
 }
 
-.by{
-  font-size: .8rem;
-
-  font-weight: 400;
- color: rgb(100, 117, 139) ;
-  font-family: "Poppins", sans-serif;
-}
-
-.company{
-  font-size: 1rem;
-  color: rgb(100, 117, 139) ;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-}
-
-.taskMeta {
+.by {
   font-size: 0.8rem;
-  color: rgb(99, 102, 241);
-  background-color: rgb(217, 217, 241);
+  font-weight: 400;
+  color: #94a3b8;
+}
+
+.company {
+  font-size: 1rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.taskMeta,
+.taskMeta1,
+.taskMeta2,
+.taskMeta3 {
+  font-size: 0.6rem;
   text-align: center;
-  width: 12%;
-  padding-block: 0.1rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 2.5px;
+  display: inline-flex;
+  align-items: center;
+}
+.taskMeta {
+  color: #5ea8c4;
+  background-color: #eff6f8;
 }
 
 .taskMeta1 {
-  font-size: 0.8rem;
-  color: rgb(99, 102, 241);
-  background-color: rgb(217, 217, 241);
-  text-align: center;
-  width: 25%;
-  padding-block: 0.2rem;
-  border-radius: 2.5px;
+  color: #8948f2;
+  background-color: #f2edff;
 }
 
 .taskMeta2 {
-  font-size: 0.8rem;
-  color: rgb(99, 102, 241);
-  background-color: rgb(217, 217, 241);
-  text-align: center;
-  width: 25%;
-  padding-block: 0.2rem;
-  border-radius: 2.5px;
+  color: #8948f2;
+  background-color: #f2edff;
 }
 
 .taskMeta3 {
-  font-size: 0.8rem;
-  color: rgb(255, 145, 128);
-  background-color: rgb(246, 208, 203);
-  text-align: center;
-  width: 20%;
-  padding-block: 0.2rem;
-  border-radius: 2.5px;
+  color: #ff8370;
+  background-color: #fff2eb;
 }
 .content {
   padding: 1rem;
 
   > p {
     margin-bottom: 0.7rem;
-    font-family: "Roboto", sans-serif;
+    font-size: 14px;
     color: rgb(100, 117, 139);
   }
 }
@@ -227,7 +202,7 @@ margin-right: 1rem;
   font-size: 1rem;
   color: #666;
 }
-.date{
+.date {
   margin-left: 1.3rem;
 }
 
@@ -235,6 +210,7 @@ margin-right: 1rem;
 
 .com {
   display: flex;
+
   > p {
     margin-inline: 0.5rem;
   }
@@ -242,54 +218,53 @@ margin-right: 1rem;
 
 .dollar {
   color: black;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.11rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .priceColour {
-  font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   color: rgb(100, 117, 139);
 }
 
 .place {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.8rem;
+  font-weight: 300;
   color: rgb(100, 117, 139);
 }
 
+.leftPart {
+  padding: 1rem 2rem;
 
+  .searchBox {
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+    width: 18rem;
+    background-color: #f1f5f9;
+    display: flex;
+    align-items: center;
 
+    > span {
+      color: #64758b;
+      margin-right: 0.5rem;
+    }
+    > input {
+      width: 100%;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      font-family: "Inter";
+      font-size: 14px;
 
-
-.leftPart{
-
-  margin: .8rem 0rem;
-  padding: .8rem 0rem;
-}
-
-.search-input {
-  
-  padding:.7rem 3.8rem;
-  font-size: .9rem; 
-  margin-left: 1.4rem;
-  border: 1px solid #ccc; 
-  border-radius: 1.5rem; 
-  border: none;
-  outline: none; 
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); 
-  background-color: rgb(241,245,249);
- 
-  
+      &::placeholder {
+        font-family: "Inter";
+        color: #64758b;
+      }
+    }
+  }
 }
 
 .search-input::placeholder {
-  color:rgb(44, 55, 71);
-
- 
+  color: rgb(44, 55, 71);
 }
-
-

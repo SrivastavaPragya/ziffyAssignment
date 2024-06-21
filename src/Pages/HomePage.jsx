@@ -1,5 +1,5 @@
 import React from 'react'
-import SideSearch from '../components/SideSearch'
+
 import Main from '../components/Main'
 
 const HomePage = () => {
@@ -7,7 +7,7 @@ const HomePage = () => {
     <div>
       <Main/>
      
-      <SideSearch/>
+    
     </div>
   )
 }
