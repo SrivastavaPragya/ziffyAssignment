@@ -17,7 +17,7 @@ const InReview = () => {
           </div>
         </div>
         <div className="content">
-          <p> 21/03/2023</p>
+          <p className="date"> 21/03/2023</p>
           <p className="contentDescription"> <span className='no'>07</span> Participants</p>
         
       </div>
@@ -36,7 +36,7 @@ const InReview = () => {
           </div>
         </div>
         <div className="content">
-          <p> 04/03/2023</p>
+          <p className="date"> 04/03/2023</p>
           <p className="contentDescription"> <span className='no'>36</span> Participants</p>
         
       </div>
@@ -54,7 +54,7 @@ const InReview = () => {
           </div>
         </div>
         <div className="content">
-          <p> 06/03/2023</p>
+          <p className="date"> 06/03/2023</p>
           <p className="contentDescription"> <span className='no'>17</span> Participants</p>
         
       </div>
@@ -72,7 +72,7 @@ const InReview = () => {
           </div>
         </div>
         <div className="content">
-          <p> 14/03/2023</p>
+          <p className="date"> 14/03/2023</p>
           <p className="contentDescription"> <span className='no'>20</span> Participants</p>
         
       </div>
